@@ -1,0 +1,35 @@
+{
+  "name": "nsp-reporter-remarkup",
+  "version": "1.0.0",
+  "description": "Summary-style reporter for nsp (Node Security Project), using Remarkup syntax",
+  "main": "src/reporter.js",
+  "engines": {
+    "node": ">=6.0.0",
+  },
+  "scripts": {
+    "nsp": "nsp check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dap/nsp-reporter-remarkup.git"
+  },
+  "keywords": [
+    "nodesecurity",
+    "nsp",
+    "reporter",
+    "remarkup"
+  ],
+  "author": {
+    "name": "Darian Anthony Patrick",
+    "email": "dpatrick@wikimedia.org"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dap/nsp-reporter-remarkup/issues"
+  },
+  "homepage": "https://github.com/dap/nsp-reporter-remarkup#readme",
+  "dependencies": {
+    "nsp": "^3.0.0",
+    "cvss": "^1.0.2"
+  }
+}
