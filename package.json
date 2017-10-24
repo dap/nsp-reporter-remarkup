@@ -1,6 +1,6 @@
 {
   "name": "nsp-reporter-remarkup",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Summary-style reporter for nsp (Node Security Project), using Remarkup syntax",
   "main": "src/reporter.js",
   "engines": {
