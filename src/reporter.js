@@ -44,13 +44,13 @@ exports.check.success = function (result, args) {
 
 		rows.push(
 			pipeWrap([
-					Cvss.getRating(finding.cvss_score),
-					finding.title,
-					finding.module,
-					finding.version,
-					patched_versions,
-					'{nav ' + finding.path.join(' > ') + '}',
-					'[[' + finding.advisory + '|nspa' + advisory_number + ']]'
+				Cvss.getRating(finding.cvss_score),
+				finding.title,
+				finding.module,
+				finding.version,
+				patched_versions,
+				'{nav ' + finding.path.join(' > ') + '}',
+				'[[' + finding.advisory + '|nspa' + advisory_number + ']]'
 			])
 		);
 	});
